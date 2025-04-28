@@ -10,7 +10,7 @@ This code provides an API for retrieving funcaptcha tokens and contains all the 
 
 **Method:** POST
 
-**Content-Type:** application/json
+**Content-Type:** `application/json`
 
 #### Request Body
 
@@ -75,10 +75,10 @@ The API will return appropriate HTTP status codes:
 - 500: Internal server error
 
 ## Setup
-Add proxies to `data/proxies.txt` (maybe optional? I forgot)
-Ideally add more fingerprints to `data/webgl.json`
-Change xevil node [here](https://github.com/BoarIncorporated/FuncapSolver/blob/9f6c073395ea72c5de16a4b68ef139a15181aaa9/helpers/classification.py#L20) or add Ziad api key [here](https://github.com/BoarIncorporated/FuncapSolver/blob/9f6c073395ea72c5de16a4b68ef139a15181aaa9/helpers/classification.py#L26) or [SCTG](https://t.me/Xevil_check_bot) key [here](https://github.com/BoarIncorporated/FuncapSolver/blob/9f6c073395ea72c5de16a4b68ef139a15181aaa9/helpers/classification.py#L28)
-Ideally use your own tls_client config (I did not include mine here it's using default)
+- Add proxies to `data/proxies.txt` (maybe optional? I forgot)
+- Ideally add more fingerprints to `data/webgl.json`
+- Change xevil node [here](https://github.com/BoarIncorporated/FuncapSolver/blob/9f6c073395ea72c5de16a4b68ef139a15181aaa9/helpers/classification.py#L20) or add Ziad api key [here](https://github.com/BoarIncorporated/FuncapSolver/blob/9f6c073395ea72c5de16a4b68ef139a15181aaa9/helpers/classification.py#L26) or [SCTG](https://t.me/Xevil_check_bot) key [here](https://github.com/BoarIncorporated/FuncapSolver/blob/9f6c073395ea72c5de16a4b68ef139a15181aaa9/helpers/classification.py#L28)
+- Ideally use your own tls_client config (I did not include mine here it's using default)
 
 ## Notes
 
