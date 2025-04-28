@@ -20,7 +20,7 @@ This code provides an API for retrieving funcaptcha tokens and contains all the 
     "og_proxy": str,        // Required: Proxy URL with http:// prefix
     "blob": str,           // Required if sitekey requires it: Additional blob data
     "og_cookies": Dict[str, str],      // Optional: Required for Roblox, dictionary of cookies
-	"niggamode": bool // Optional: If set to true it will allow for proxyless task
+    "niggamode": bool // Optional: If set to true it will allow for proxyless task
 }
 ```
 
