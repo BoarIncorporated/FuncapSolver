@@ -1,0 +1,2 @@
+# FuncapSolver
+Working funcaptcha solver
