@@ -87,6 +87,7 @@ The API will return appropriate HTTP status codes:
 - The `blob` parameter is only required for certain site keys that specifically need it
 - You will have to add your own fingerprints
 - Unlike the other solver repos I have this one still currently works and tokens pass
+- If you encounter an error and you don't know why, either [enable traceback](https://github.com/BoarIncorporated/FuncapSolver/blob/1f9f399d1b8ec585a9282dafd3fecf85e5a1dcba/app.py#L638) or make sure your preset is in the `helpers/presets.py` file
 
 ## Credits
 @trailios for the encryption/decryption algos and x64hash128 ready-to-use code
