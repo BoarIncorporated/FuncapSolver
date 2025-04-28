@@ -1,6 +1,6 @@
 # FunCaptcha Solver API
 
-This API provides a service to solve FunCaptcha challenges. It handles the entire process of solving FunCaptcha challenges, including browser fingerprinting, challenge solving, and token generation.
+This code provides an API for retrieving funcaptcha tokens and contains all the necessary functions to fetch them and solve them, it's able to produce unflagged tokens (idk for how long but it is)
 
 ## API Endpoint
 
@@ -16,10 +16,11 @@ This API provides a service to solve FunCaptcha challenges. It handles the entir
 
 ```json
 {
-    "private_key": "string",     // Required: The FunCaptcha site key
-    "og_proxy": "string",        // Required: Proxy URL with http:// prefix
-    "blob": "string",           // Required if sitekey requires it: Additional blob data
-    "og_cookies": "string"      // Optional: Required for Roblox, dictionary of cookies
+    "private_key": str,     // Required: The FunCaptcha site key
+    "og_proxy": str,        // Required: Proxy URL with http:// prefix
+    "blob": str,           // Required if sitekey requires it: Additional blob data
+    "og_cookies": Dict[str, str],      // Optional: Required for Roblox, dictionary of cookies
+	"niggamode": bool // Optional: If set to true it will allow for proxyless task
 }
 ```
 
@@ -73,9 +74,20 @@ The API will return appropriate HTTP status codes:
 - 400: Invalid request parameters
 - 500: Internal server error
 
+## Setup
+Add proxies to `data/proxies.txt` (maybe optional? I forgot)
+Ideally add more fingerprints to `data/webgl.json`
+Change xevil node [here](https://github.com/BoarIncorporated/FuncapSolver/blob/9f6c073395ea72c5de16a4b68ef139a15181aaa9/helpers/classification.py#L20) or add Ziad api key [here](https://github.com/BoarIncorporated/FuncapSolver/blob/9f6c073395ea72c5de16a4b68ef139a15181aaa9/helpers/classification.py#L26) or [SCTG](https://t.me/Xevil_check_bot) key [here](https://github.com/BoarIncorporated/FuncapSolver/blob/9f6c073395ea72c5de16a4b68ef139a15181aaa9/helpers/classification.py#L28)
+Ideally use your own tls_client config (I did not include mine here it's using default)
+
 ## Notes
 
 - The API requires a valid proxy URL with the `http://` prefix
 - For Roblox captchas, `og_cookies` is required
 - The `blob` parameter is only required for certain site keys that specifically need it
 - You will have to add your own fingerprints
+- Unlike the other solver repos I have this one still currently works and tokens pass
+
+## Credits
+@trailios for the encryption/decryption algos and x64hash128 ready-to-use code
+@uizlrfwg for the local prediction source, you can find the download link for the model in [his repo](https://github.com/uizlrfwg/fun-process_image)
