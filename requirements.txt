@@ -1,0 +1,13 @@
+cryptography
+curl_cffi
+Flask
+javascript
+mmh3
+numpy
+orjson
+pytz
+Requests
+rich
+typing_extensions
+urllib3
+wrapper_tls_requests
