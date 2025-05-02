@@ -91,6 +91,76 @@ PRESETS = {
             "window__tree_index": [1],
         },
     },
+    # LINKEDIN SIGNUP
+    "2DBA2BC7-C097-4D1B-B15F-4486F0291686": {
+        "siteurl": "https://iframe.arkoselabs.com",
+        "sitekey": "2DBA2BC7-C097-4D1B-B15F-4486F0291686",
+        "apiurl": "https://client-api.arkoselabs.com",
+        "capi_mode": "inline",
+        "style_theme": "link_light",
+        "requires_blob": True,
+        "data": {
+            "window__ancestor_origins": [
+                "https://iframe.arkoselabs.com",
+                "https://www.linkedin.com",
+                "https://www.linkedin.com",
+                "https://www.linkedin.com"
+            ],
+            "client_config__sitedata_location_href": "https://iframe.arkoselabs.com/2DBA2BC7-C097-4D1B-B15F-4486F0291686/index.html",
+            "window__tree_structure": "[[],[],[],[],[[[[]],[]],[]]]",
+            "window__tree_index": [
+                4,
+                0,
+                0,
+                0
+            ],
+        },
+    },
+    # MATCH.COM LOGIN
+    "85800716-F435-4981-864C-8B90602D10F7": {
+        "siteurl": "https://www.match.com",
+        "sitekey": "85800716-F435-4981-864C-8B90602D10F7",
+        "apiurl": "https://client-api.arkoselabs.com",
+        "capi_mode": "lightbox",
+        "style_theme": "default",
+        "requires_blob": False,
+        "data": {
+            "window__ancestor_origins": ["https://www.match.com"],
+            "client_config__sitedata_location_href": "https://www.match.com/login",
+            "window__tree_structure": "[[],[]]",
+            "window__tree_index": [1],
+        },
+    },
+    # GITHUB SIGNUP
+    "747B83EC-2CA3-43AD-A7DF-701F286FBABA": {
+        "siteurl": "https://octocaptcha.com",
+        "sitekey": "747B83EC-2CA3-43AD-A7DF-701F286FBABA",
+        "apiurl": "https://github-api.arkoselabs.com",
+        "capi_mode": "inline",
+        "style_theme": "light",
+        "requires_blob": True,
+        "data": {
+            "window__ancestor_origins": ["https://github.com"],
+            "client_config__sitedata_location_href": "https://octocaptcha.com/",
+            "window__tree_structure": "[[]]",
+            "window__tree_index": [0],
+        },
+    },
+    # SNAPCHAT REGISTER
+    "EA4B65CB-594A-438E-B4B5-D0DBA28C9334": {
+        "siteurl": "https://iframe.arkoselabs.com",
+        "sitekey": "EA4B65CB-594A-438E-B4B5-D0DBA28C9334",
+        "apiurl": "https://snap-api.arkoselabs.com",
+        "capi_mode": "lightbox",
+        "style_theme": "default",
+        "requires_blob": True, # send "undefined"
+        "data": {
+            "window__ancestor_origins": ["https://accounts.snapchat.com"],
+            "client_config__sitedata_location_href": "https://iframe.arkoselabs.com/EA4B65CB-594A-438E-B4B5-D0DBA28C9334/lightbox.html",
+            "window__tree_structure": "[[]]",
+            "window__tree_index": [0],
+        },
+    },
 }
 
 
