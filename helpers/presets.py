@@ -57,6 +57,40 @@ PRESETS = {
             "window__tree_index": [2, 0],
         },
     },
+    # ZILCH SIGN UP
+    "D5264E07-85CF-434C-88E5-6F095A832C01": {
+        "siteurl": "https://customers.payzilch.com",
+        "sitekey": "D5264E07-85CF-434C-88E5-6F095A832C01",
+        "apiurl": "https://client-api.arkoselabs.com",
+        "capi_mode": "lightbox",
+        "style_theme": "default",
+        "requires_blob": True,
+        "data": {
+            "window__ancestor_origins": [
+                "https://customers.payzilch.com"
+            ],
+            "client_config__sitedata_location_href": "https://customers.payzilch.com/apply/",
+            "window__tree_structure": "[[],[],[],[]]",
+            "window__tree_index": [3],
+        },
+    },
+    # ZILCH LOGIN
+    "284CE8B2-89E0-45B0-98B7-38594A810745": {
+        "siteurl": "https://customers.payzilch.com",
+        "sitekey": "284CE8B2-89E0-45B0-98B7-38594A810745",
+        "apiurl": "https://client-api.arkoselabs.com",
+        "capi_mode": "lightbox",
+        "style_theme": "default",
+        "requires_blob": True,
+        "data": {
+            "window__ancestor_origins": [
+                "https://customers.payzilch.com"
+            ],
+            "client_config__sitedata_location_href": "https://customers.payzilch.com/login",
+            "window__tree_structure": "[[],[]]",
+            "window__tree_index": [1],
+        },
+    },
 }
 
 
