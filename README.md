@@ -98,3 +98,6 @@ The API will return appropriate HTTP status codes:
 ## Credits
 - [@trailios](https://github.com/trailios/) for the encryption/decryption algos and x64hash128 ready-to-use code
 - [@uizlrfwg](https://github.com/uizlrfwg/) for the local prediction source, you can find the download link for the model in [his repo](https://github.com/uizlrfwg/fun-process_image)
+
+> [!IMPORTANT]
+> as of 15/5/2025 this repo is unmaintained, I won't be adding support for newer versions but PR's are accepted
